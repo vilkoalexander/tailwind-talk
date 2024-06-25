@@ -1,0 +1,32 @@
+<label class="user-card">
+  <input type="checkbox" />
+  <div class="user-card-inner">
+    <div class="user-card-front">
+      <div class="user-card-header">
+        <div class="user-info">
+          <h2 class="user-name">{{ user.name }}</h2>
+          <p class="user-title">{{ user.title }}</p>
+        </div>
+      </div>
+      <div class="user-card-body">
+        <p class="user-description">
+          {{ user.description }}
+        </p>
+      </div>
+    </div>
+    <div class="user-card-back">
+      <div class="user-card-header">
+        <div class="user-info">
+          <h2 class="user-name">Contact Information</h2>
+        </div>
+      </div>
+      <div class="user-card-body">
+        <p class="user-description">
+          Email: {{ user.email }}
+          <br />
+          Phone: {{ user.phone }}
+        </p>
+      </div>
+    </div>
+  </div>
+</label>

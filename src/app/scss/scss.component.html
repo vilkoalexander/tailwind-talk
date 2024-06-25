@@ -1,0 +1,7 @@
+<div class="page-container">
+  <div class="user-card-list">
+    @for (user of users; track $index) {
+    <app-user-card [user]="user" />
+    }
+  </div>
+</div>
