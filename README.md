@@ -2,26 +2,51 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
 
-## Development server
+## How to Set Up
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Try it with Stackblitz
 
-## Code scaffolding
+1. Navigate to [Stackblitz](https://stackblitz.com/~/github.com/vilkoalexander/tailwind-talk?initialPath=/tailwind)
+2. Wait for the dependencies to be installed
+3. Enjoy!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Local Development
 
-## Build
+1. Clone the repository:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+git clone git@github.com:vilkoalexander/tailwind-talk.git
+```
 
-## Running unit tests
+2. Navigate to the project directory:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+cd tailwind-talk
+```
 
-## Running end-to-end tests
+3. Checkout the complete Tailwind example branch:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git checkout complete-tailwind-example
+```
 
-## Further help
+4. Install dependencies:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+npm install
+```
+
+5. Start the development server:
+
+```bash
+npm start
+```
+
+## How to Use
+
+There are two routes available that provide similar functionality:
+
+    /scss - Implemented with SCSS
+    /tailwind - Implemented with Tailwind CSS
+
+The Tailwind version has the ability to switch between Dark and Light themes. The SCSS version does not have this feature due to time constraints and the increased complexity of implementation.
