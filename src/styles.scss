@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   height: 100vh;
@@ -19,3 +23,7 @@ $grey-400: #94a3b8;
 $grey-900: #111827;
 
 $zink-200: #e4e4e7;
+
+.dlh-text-primary {
+  @apply text-slate-900 dark:text-slate-50;
+}

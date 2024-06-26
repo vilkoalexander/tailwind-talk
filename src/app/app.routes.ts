@@ -5,4 +5,9 @@ export const routes: Routes = [
     path: 'scss',
     loadChildren: () => import('./scss/scss.module').then((m) => m.ScssModule),
   },
+  {
+    path: 'tailwind',
+    loadChildren: () =>
+      import('./tailwind/tailwind.module').then((m) => m.TailwindModule),
+  },
 ];
